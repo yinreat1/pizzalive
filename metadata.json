@@ -1,0 +1,6 @@
+{
+  "name": "PizzaLive Silopi",
+  "description": "PizzaLive Silopi resmi web sitesi - Odun ateşinde taze pizzalar, burgerler, yan ürünler ve tatlılar.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
