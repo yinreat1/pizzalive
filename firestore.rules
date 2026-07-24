@@ -1,0 +1,16 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Public visitors can view the menu and restaurant information, but only
+    // the PizzaLive administrator account can change anything.
+    function isAdmin() {
+      return request.auth != null
+        && request.auth.token.email == 'pizzalive@gmail.com';
+    }
+
+    match /{document=**} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
+  }
+}

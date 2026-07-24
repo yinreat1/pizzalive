@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="PizzaLive">
+  <rect width="64" height="64" rx="16" fill="#dc2626"/>
+  <path d="M17 16c13-4 24-4 34 0L32 51 17 16Z" fill="#fbbf24" stroke="#fff7ed" stroke-width="3" stroke-linejoin="round"/>
+  <circle cx="28" cy="25" r="3" fill="#dc2626"/>
+  <circle cx="38" cy="29" r="3" fill="#dc2626"/>
+  <circle cx="31" cy="37" r="3" fill="#dc2626"/>
+</svg>
