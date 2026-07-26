@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://pizzalive.vercel.app/sitemap.xml
